@@ -1,0 +1,22 @@
+algorithme tableau_produit_scalaire
+
+varible
+	tableau U(3):entier 
+
+	tableau V(3):entier 
+
+	i,p:entier
+
+Debut
+	pour i <-- 0 a 2 faire 
+		ecrire("donner le nombre ",i+1,"de vecteur U")
+		lire(U(i))
+		ecrire("donner le nombre ",i+1,"de vecteur V")
+		lire(V(i))
+	fin pour
+	p<--0
+	pour i <-- 0 a 2 faire 
+		p<--p+(U(i)*V(i))
+	fin pour
+	ecrire("le produit scalaire est : ",p)
+fin
